@@ -21,12 +21,12 @@ class Students{
         //Constructor can have multiple to match later instances
 
         Students(){
-            //
+            //This one will give random init values
         }
     
         int GetAge();
     
-    std::string GetSchool();
+        std::string GetSchool();
     
     private:
     int m_Age;

@@ -6,18 +6,16 @@
 //
 
 #include <stdio.h>
-#include <string.h>
-#include <iostream>
 #include <string>
 
 #include "Students.h"
 
 using namespace std;
 
-int GetAge(){
+int Students::GetAge(){
     return m_Age;
 }
 
-string GetSchool(){
+string Students::GetSchool(){
     return m_School;
 }
