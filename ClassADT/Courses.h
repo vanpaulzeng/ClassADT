@@ -8,6 +8,8 @@
 #ifndef Courses_h
 #define Courses_h
 
+class Students;
+
 class Courses{
     public:
     Courses(std::string Name, std::string Course){
@@ -16,10 +18,15 @@ class Courses{
     }
     
     void setCourses(std::string Name, std::string Course);
+    Students* showStudents();
+
     
     private:
     std::string m_Name, m_Course;
+    Students* p_student;
 };
+
+
 
 
 

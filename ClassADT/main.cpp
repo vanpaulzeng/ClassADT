@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "Students.h"
-#include "courses.h"
+#include "Courses.h"
 
 using namespace std;
 
@@ -16,6 +16,7 @@ int main(int argc, const char * argv[]) {
     cout << "Hello, World!\n";
     Students Student1, Student2("Amy", 20, "UCLA");
     Courses Course1("Amy","Cogs");
+    
     
     
     cout << "Student1 is: \n" << Student1.GetAge() << "   "<<Student1.GetSchool();

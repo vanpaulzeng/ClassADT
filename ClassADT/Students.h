@@ -8,6 +8,7 @@
 #ifndef Students_h
 #define Students_h
 
+class Courses;
 
 
 class Students{
@@ -23,15 +24,18 @@ class Students{
         Students(){
             //This one will give random init values
         }
+        
     
         int GetAge();
     
         std::string GetSchool();
+    Courses* showCourses();
     
     private:
     int m_Age;
     std::string m_Name;
     std::string m_School;
+    Courses* p_course;
     
 };
 
