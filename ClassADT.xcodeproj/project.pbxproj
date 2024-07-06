@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8493ACCB2C387F3B00CB3415 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8493ACCA2C387F3B00CB3415 /* main.cpp */; };
 		8493ACD32C38853A00CB3415 /* Students.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8493ACD22C38853A00CB3415 /* Students.cpp */; };
+		8493ACD72C38F7F100CB3415 /* Courses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8493ACD52C38F7F100CB3415 /* Courses.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		8493ACCA2C387F3B00CB3415 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8493ACD12C387FA900CB3415 /* Students.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Students.h; sourceTree = "<group>"; };
 		8493ACD22C38853A00CB3415 /* Students.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Students.cpp; sourceTree = "<group>"; };
+		8493ACD42C38F6D500CB3415 /* Courses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Courses.h; sourceTree = "<group>"; };
+		8493ACD52C38F7F100CB3415 /* Courses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Courses.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				8493ACCA2C387F3B00CB3415 /* main.cpp */,
 				8493ACD12C387FA900CB3415 /* Students.h */,
+				8493ACD42C38F6D500CB3415 /* Courses.h */,
+				8493ACD52C38F7F100CB3415 /* Courses.cpp */,
 				8493ACD22C38853A00CB3415 /* Students.cpp */,
 			);
 			path = ClassADT;
@@ -126,6 +131,7 @@
 			files = (
 				8493ACCB2C387F3B00CB3415 /* main.cpp in Sources */,
 				8493ACD32C38853A00CB3415 /* Students.cpp in Sources */,
+				8493ACD72C38F7F100CB3415 /* Courses.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
